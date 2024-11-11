@@ -52,13 +52,16 @@ Q1. Do you think the application satisfies the acceptance criteria?
 a short summary of why you think the application does / doesn't meet the
 acceptance criteria*
 
-*Answer: - The application successfully retrieves and displays the current time in both the UK and Canada.
+*Answer:
+ *        - The application successfully retrieves and displays the current time in both the UK and Canada.
  *       - The difference in time between the two regions is calculated and displayed, meeting a primary acceptance criteria
 
-* Potential Issues - The current implementation mixes DateTime with DateTimeOffset. This can lead to inconsistencies
- *                 - There’s minimal error handling, which could lead to application failure if the API fails or returns an unexpected response.
+* Potential Issues
+ *         - The current implementation mixes DateTime with DateTimeOffset. This can lead to inconsistencies
+ *         - There’s minimal error handling, which could lead to application failure if the API fails or returns an unexpected response.
  
-* Conclusion        - The application mostly satisfies the acceptance criteria, but improvements in time zone handling, testability, and error handling would enhance its reliability and accuracy.
+* Conclusion
+*         - The application mostly satisfies the acceptance criteria, but improvements in time zone handling, testability, and error handling would enhance its reliability and accuracy.
 
 Q2. Refactor the code to be more testable  
 *Code does not have to be perfect, what is important here is your thought
